@@ -1,1 +1,19 @@
-l,kkss
+p
+
+{
+font-family: Raleway, sans-serif
+}
+
+<h4>
+{
+    font-weight: bold;
+}
+
+body
+{
+    background-color: F2F2F2;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
