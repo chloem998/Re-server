@@ -20,6 +20,13 @@ h4 {
 h5{
 border: 3px #F2F2F2 solid;
 border-radius: 10px;
+margin: 10px;
+
+}
+h6{
+    border: 3px #F2F2F2 solid;
+    border-radius: 15px;
+    margin: 15px;
 
 }
 
@@ -41,8 +48,8 @@ height: 200px;
 .pour{
     display: flex;
 }
-.la{
-    width: 100px;
+.populaire{
+    width: 200px;
     height: auto;
 }
 
@@ -64,6 +71,8 @@ footer nav{
     justify-content: space-around;
     
 }
+
+
 
 nav ul{
     list-style-type: none;
