@@ -1,24 +1,101 @@
 html, body {
-    margin: 0;
-    padding: 0;
+    margin: 10px;
+    padding: 5px;
+    font-family: raleway, sans-serif;
 }
 
-body {
-    background-color: #F2F2F2;
+footer {
+    background-color:#F2F2F2;
     background-position: bottom;
     background-repeat: no-repeat;
-    background-attachment: fixed;
-}
-
-h1 {
-    border: 3px grey;
-    border-radius: 20px/10px;
+    margin: 0px;
+    padding: 0px;
 }
 
 h4 {
     font-weight: bold;
+    margin: 50px;
 }
 
-p {
-font-family: Raleway, sans-serif
+h5{
+border: 3px #F2F2F2 solid;
+border-radius: 10px;
+
 }
+
+.conteneur{
+    display: flex;
+
+}
+
+img{
+    width: 100%;
+    height: auto;
+
+}
+.image {
+    width: 200px;
+height: 200px;
+}
+
+.pour{
+    display: flex;
+}
+.la{
+    width: 100px;
+    height: auto;
+}
+
+.port{
+    display: flex;
+}
+
+.Marseille{
+    width: 100px;
+    height: auto;
+}
+
+.Activite{
+    width: 50px;
+    height: auto;
+}
+footer nav{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex; 
+}
+
+nav li{
+    margin-right: 15px;
+}
+
+nav a{
+    font-size: 1.3em;
+    color:  #0065FC;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color:  #0065FC;
+    border-bottom: none;
+}
+header img{
+    width: 100px;
+    height: auto;
+    
+}
+
+ancre{
+    color: black;
+}
+header{
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
